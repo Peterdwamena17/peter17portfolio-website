@@ -1,0 +1,69 @@
+
+.my-tech{
+    font-size: 15px;
+    font-weight: bold;            
+    line-height: 20px;
+    margin-bottom: 12px;
+    margin-top: 0px;
+}
+.thumbnail-row{
+    position: relative;
+    margin-bottom: 10px;
+}
+.thumbnail-1{
+    width: 100%; 
+}
+.video-remarks, .video-Author{
+    font-size: 12px;
+}
+.video-remarks{
+    margin-bottom: 4px;
+} 
+.total{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 19px;
+    row-gap: 45px;
+}
+@media (max-width: 750px){
+    .total{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 751px) and (min-width: 999px) {
+    .total{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 1000px) {
+    .total{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+.video-info-grid{
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    column-gap: 15px;
+}
+.channel-1{
+    border-radius: 25px;
+    width: 50px;
+    position: relative;
+}
+.video-time{
+    background-color: black;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    padding-right: 4px;
+    color: white;
+    position: absolute;
+    bottom: 12px;
+    right: 8px;
+    border-radius: 4px;
+}

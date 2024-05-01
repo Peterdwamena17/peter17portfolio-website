@@ -1,0 +1,26 @@
+p{
+    margin-bottom: 20px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.business-info{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.Apple-info{
+    font-size: 12px;
+    color: rgb(98, 98, 98);
+}
+
+.link-1{
+    font-size: 12px;
+    color: rgb(98, 98, 229);
+    cursor: pointer;
+}   
+
+.link-1:hover{
+    text-decoration: underline;
+}
